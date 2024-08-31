@@ -1,38 +1,197 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Exo:400,700");
+html {
+  scroll-behavior: smooth;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+:root {
+  color-scheme: light dark;
+}
+body {
+  background-color: light-dark(#fff, #000);
+  font-family: "Exo", sans-serif;
+  color: light-dark(#000, #fff);
+  cursor: pointer;
+  overflow: hidden;
+}
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  width: 100vw;
+  /* background-image: url("./assets/bg4.jpg"); */
+  background-size: cover;
+  height: 100vh;
+  background-repeat: no-repeat;
   color: white;
+  overflow: hidden;
+}
+.section_title h2 {
+  display: none;
 }
 
-.App-link {
-  color: #61dafb;
+.context {
+  width: 100%;
+  position: absolute;
+  top: 50vh;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.context h1 {
+  text-align: center;
+  color: #fff;
+  font-size: 50px;
+}
+
+.area {
+  background: #090909;
+  /* background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8); */
+  width: 100%;
+  height: 100%;
+}
+
+.circles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.circles li {
+  position: absolute;
+  display: block;
+  list-style: none;
+  width: 20px;
+  height: 20px;
+  background: rgba(255, 252, 252, 0.828);
+  animation: animate 25s linear infinite;
+  bottom: -150px;
+}
+
+.circles li:nth-child(1) {
+  left: 25%;
+  width: 80px;
+  height: 80px;
+  animation-delay: 0s;
+}
+
+.circles li:nth-child(2) {
+  left: 10%;
+  width: 50px;
+  height: 50px;
+  animation-delay: 2s;
+  animation-duration: 12s;
+}
+
+.circles li:nth-child(3) {
+  left: 70%;
+  width: 50px;
+  height: 50px;
+  animation-delay: 4s;
+}
+
+.circles li:nth-child(4) {
+  left: 40%;
+  width: 60px;
+  height: 60px;
+  animation-delay: 0s;
+  animation-duration: 18s;
+}
+
+.circles li:nth-child(5) {
+  left: 65%;
+  width: 20px;
+  height: 20px;
+  animation-delay: 0s;
+}
+
+.circles li:nth-child(6) {
+  left: 75%;
+  width: 110px;
+  height: 110px;
+  animation-delay: 3s;
+}
+
+.circles li:nth-child(7) {
+  left: 35%;
+  width: 150px;
+  height: 150px;
+  animation-delay: 7s;
+}
+
+.circles li:nth-child(8) {
+  left: 50%;
+  width: 25px;
+  height: 25px;
+  animation-delay: 15s;
+  animation-duration: 45s;
+}
+
+.circles li:nth-child(9) {
+  left: 20%;
+  width: 15px;
+  height: 15px;
+  animation-delay: 2s;
+  animation-duration: 30s;
+}
+
+.circles li:nth-child(10) {
+  left: 85%;
+  width: 125px;
+  height: 125px;
+  animation-delay: 0s;
+  animation-duration: 11s;
+}
+.circles li:nth-child(10) {
+  left: 85%;
+  width: 75px;
+  height: 75px;
+  animation-delay: 0s;
+  animation-duration: 11s;
+}
+@keyframes animate {
+  0% {
+    transform: translateY(0) rotate(0deg);
+    opacity: 1;
+    border-radius: 100%;
   }
-  to {
-    transform: rotate(360deg);
+
+  100% {
+    transform: translateY(-1000px) rotate(720deg);
+    opacity: 0;
+    border-radius: 50%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  .App {
+    width: 100vw;
+    background: #080808;
+    height: 100vh;
+    overflow: auto;
+    /* background-image: url("./assets/bg.jpg"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .area {
+    background: #080808;
+    /* background: -webkit-linear-gradient(to left, #193c79, #187cce); */
+    /* background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8); */
+    width: 100%;
+    height: 100vh;
+  }
+  .circles li {
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background: rgba(255, 252, 252, 0.828);
+    animation: animate 25s linear infinite;
+    bottom: -150px;
   }
 }

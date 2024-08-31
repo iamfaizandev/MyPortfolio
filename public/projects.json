@@ -1,0 +1,37 @@
+[
+  {
+    "title": "OnE.com",
+    "image": "one.png",
+    "description": "e-commerce website using react js, using free product api,add,fvt,order feature,and responsive,firebase auth",
+    "liveUrl": "https://one-ecom-388ea.web.app/",
+    "codeUrl": "https://github.com/iamfaizandev/one-ecom"
+  },
+  {
+    "title": "Oneflix Clone",
+    "image": "onelfix.png",
+    "description": "Create account using Google,Email and Login with Email,password , Open in Other broswer becz its look like netflix google throwing scam alert",
+    "liveUrl": "https://onewebmovie.web.app/",
+    "codeUrl": "https://github.com/iamfaizandev/oneflix"
+  },
+  {
+    "title": "Nested Routing",
+    "image": "nested.png",
+    "description": "Nested Route using react-router-dom",
+    "liveUrl": "https://nested-routing-fzn.web.app/",
+    "codeUrl": "https://github.com/iamfaizandev"
+  },
+  {
+    "title": "Ab Dental",
+    "image": "ab.png",
+    "description": "using html,css and JS , bootstrap ,email js, book appointment and get emaill with appointment details",
+    "liveUrl": "https://iamfaizandev.github.io/abdental/",
+    "codeUrl": "https://github.com/iamfaizandev/abdental"
+  },
+  {
+    "title": "Box Office",
+    "image": "box.png",
+    "description": "using React js ,TVMaza api , search any movie,shows ,actors or actress and make fvt ",
+    "liveUrl": "https://iamfaizandev.github.io/FN_BoxOfiice/#/",
+    "codeUrl": "https://github.com/iamfaizandev/FN_BoxOfiice"
+  }
+]

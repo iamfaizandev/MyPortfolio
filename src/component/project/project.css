@@ -1,0 +1,50 @@
+.project_container {
+  padding: 20px;
+}
+
+.mui_card {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 500px;
+  width: 500px;
+}
+.skeleton {
+  margin: 0;
+}
+.card_img {
+  height: 320px;
+  object-fit: cover;
+}
+
+.slick-slide {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.slick-dots li button:before {
+  color: #ffffff;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #ffffff !important;
+}
+
+@media (max-width: 600px) {
+  .project_container {
+    padding: 20px;
+    margin-top: 15%;
+  }
+  .mui_card {
+    margin: 5px;
+    height: 450px;
+    width: 500px;
+  }
+
+  .card_img {
+    height: 250px;
+    width: 100px;
+  }
+}

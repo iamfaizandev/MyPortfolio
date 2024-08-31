@@ -1,0 +1,34 @@
+[
+  {
+    "projectName": "Video Project with Curd Action",
+    "projectLink": "https://videoproject-fzn.web.app/ "
+  },
+  {
+    "projectName": "Google Keep Clone",
+    "projectLink": "https://keep-clone-fzn.web.app/  "
+  },
+  {
+    "projectName": "Box-office",
+    "projectLink": "https://iamfaizandev.github.io/FN_BoxOfiice/#/  "
+  },
+  {
+    "projectName": "Box-office",
+    "projectLink": "https://iamfaizandev.github.io/FN_BoxOfiice/#/  "
+  },
+  {
+    "projectName": "Box-office",
+    "projectLink": "https://iamfaizandev.github.io/FN_BoxOfiice/#/  "
+  },
+
+  {
+    "projectName": "Box-office",
+    "projectLink": "https://vdoflx.firebaseapp.com/  "
+  },
+  {
+    "title": "Nested Routing",
+    "img": "nested_thumbnail.png",
+    "description": "Nested Route using react-router-dom",
+    "liveUrl": "https://nested-routing-fzn.web.app/",
+    "codeUrl": ""
+  }
+]

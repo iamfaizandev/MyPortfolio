@@ -1,0 +1,36 @@
+.resume-container {
+  display: block;
+  width: 45vw;
+  margin: auto;
+  margin-top: 3%;
+}
+.resume-container button .btn_link {
+  font-size: 1.3rem;
+}
+.resumeDownloadBtn {
+  width: 35%;
+}
+.resume-container .viewBtn {
+  width: 25%;
+  margin-left: 2%;
+}
+
+@media only screen and (max-width: 600px) {
+  .resume-container {
+    display: block;
+    margin: auto;
+    width: 90%;
+    margin-top: 25%;
+  }
+
+  .resume-container button .btn_link {
+    font-size: 2rem;
+  }
+  .resumeDownloadBtn {
+    width: 55%;
+  }
+  .resume-container .viewBtn {
+    width: 40%;
+    margin-left: 2%;
+  }
+}

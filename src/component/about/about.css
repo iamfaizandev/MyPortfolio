@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
+/* General Styles */
+.section_title {
+  display: none;
+}
+.about_me {
+  overflow: auto;
+}
+
+.about_container {
+  display: grid;
+  grid-template-columns: 5fr 6fr;
+  gap: 3%;
+  margin: 3% 3% 0 3%;
+}
+
+.Portfolio_Img {
+  margin-left: 10%;
+}
+
+.Portfolio_Img img {
+  height: 100%; /* Adjusted for consistency */
+  max-height: 500px; /* Ensure the image doesn't get too large */
+  width: auto;
+  border-radius: 5%;
+}
+
+.about_me-container {
+  font-size: 1.3rem;
+  backdrop-filter: blur(3px);
+  color: rgb(255, 255, 255);
+  width: 50vw;
+  padding: 2%;
+  height: 50vh;
+  margin-top: 10%;
+}
+
+.about_me {
+  color: rgb(255, 255, 255);
+  font-family: "Space Grotesk", sans-serif;
+}
+.PagenextBtn {
+  display: none;
+}
+/* Responsive Design for Mobile */
+@media only screen and (max-width: 600px) {
+  .about-section {
+    height: 100vh;
+    overflow: scroll;
+  }
+
+  .section_title {
+    display: block;
+    text-align: left;
+  }
+
+  .about_container {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0;
+  }
+
+  .skelton {
+    display: none;
+  }
+
+  .Portfolio_Img img {
+    height: 75%;
+    width: 85%;
+    border-radius: 5%;
+    margin-top: 15%;
+    display: none;
+  }
+
+  .about_me-container {
+    font-size: 1.3rem;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 0%;
+    margin-top: 10%;
+  }
+  .about_me-container {
+  }
+
+  .about_me {
+    margin-top: 0;
+    color: white;
+  }
+  .PagenextBtn {
+    display: block;
+    width: 100%;
+    margin: auto;
+    margin-top: 10%;
+  }
+  .PagenextBtn button {
+    width: 87%;
+    margin-left: 5%;
+  }
+}

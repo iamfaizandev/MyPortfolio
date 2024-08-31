@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink&family=Inconsolata:wght@300&display=swap");
+
+/* General styles */
+.logo {
+  box-shadow: 3px 3px 6px rgba(234, 228, 228, 0.493);
+  border-radius: 50%;
+}
+.active {
+  color: #ffffff;
+  border-bottom: 3px solid rgb(103, 5, 5);
+  /* border-radius: 5%; */
+  transition: 1s;
+}
+.appbar-container {
+  background-color: black;
+  box-shadow: 1px 1px 20px rgb(0, 0, 0);
+}
+
+.nav_text {
+  color: rgb(255, 255, 255);
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  transition: 1s;
+}
+
+/* .hidden_burger {
+  display: none;
+} */
+
+.appbar {
+  background-color: #fff; /* White background for the AppBar */
+  box-shadow: none; /* Remove the default shadow */
+}
+
+.logoBtn {
+  padding: 0;
+}
+
+.nav_text {
+  color: #333; /* Dark text color */
+  font-size: 18px; /* Increase font size */
+  transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+}
+
+.nav_text:hover {
+  color: #ffffff; /* Blue color on hover */
+  transform: scale(1.1); /* Slightly enlarge text on hover */
+}
+
+.active {
+  color: #fcfeff; /* Active link color */
+  font-weight: bold; /* Bold for active link */
+}
+
+.burger {
+  color: #ffffff; /* Dark color for burger icon */
+}
+
+.phoneDrawer_List {
+  width: 250px; /* Set the width of the drawer */
+}
+
+.closeIcon {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  cursor: pointer;
+  color: #333; /* Dark color for close icon */
+}
+
+.phoneDrawer .MuiPaper-root {
+  background-color: #000000; /* White background for the drawer */
+  padding: 10px; /* Padding inside the drawer */
+}
+/* navbar.css */
+.battery-status {
+  text-align: center;
+  font-size: 0.9em;
+  margin-left: 20px;
+}
+
+.battery-status p {
+  margin: 0;
+}
+
+/* Media query for small screens */
+@media only screen and (max-width: 600px) {
+  /* Adjustments to appbar container and logo for small screens */
+  .appbar-container {
+    background-color: transparent;
+    backdrop-filter: blur(15px);
+    box-shadow: 1px 1px 20px rgb(0, 0, 0);
+    position: absolute;
+    font-size: 2rem;
+  }
+  .active {
+    border-bottom: none;
+    border-radius: 5%;
+    transition: 1s;
+  }
+  .phoneDrawer {
+    transition: 4s;
+  }
+  .closeIcon {
+    position: absolute;
+    top: 2%;
+    right: 3%;
+    color: rgb(255, 255, 255);
+  }
+
+  .phoneDrawer_List {
+    width: 70vw;
+    /* background: linear-gradient(to left, #7b343447, rgba(0, 0, 0, 0.094)); */
+    /* background: linear-gradient(to left, #8f94fb, #4e54c8); */
+    background-size: 600% 600%;
+    height: auto;
+  }
+
+  .navLink {
+    text-align: center;
+  }
+
+  .navListItem {
+    margin-top: 20%;
+  }
+  .navListItem span {
+    font-size: 1.8rem;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-bottom: 10%;
+  }
+  .logo {
+    box-shadow: 3px 3px 10px rgba(255, 254, 254, 0.493);
+    border-radius: 60%;
+    margin-bottom: 2%;
+    margin-top: 1%;
+  }
+
+  /* Adjustments to text color and font-family for small screens */
+  /* .nav_text {
+    color: rgb(0, 0, 0);
+    font-family: "Aref Ruqaa Ink", serif;
+    font-family: "Inconsolata", monospace;
+    font-weight: bold;
+  } */
+
+  /* Navigation styles for small screens */
+  /* .nav {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    z-index: +999;
+    margin-top: 33vh;
+    backdrop-filter: blur(45px);
+    box-shadow: 2px 2px 5px white;
+    color: black;
+  } */
+
+  /* Styles for burger icon on small screens */
+  /* .hidden_burger {
+    display: block;
+  }
+
+  .hidden {
+    display: none;
+  } */
+}

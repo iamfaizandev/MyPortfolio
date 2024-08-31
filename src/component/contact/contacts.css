@@ -1,0 +1,79 @@
+.contact_section {
+  display: grid;
+  grid-template-columns: 5fr 5fr;
+  height: 450px;
+  width: 80vw;
+  gap: 3%;
+  margin: auto;
+  margin-top: 5%;
+  backdrop-filter: blur(15px);
+  box-shadow: 0.5px 0.5px 2px white;
+}
+
+.contact_form,
+.lets_connect {
+  height: 62vh;
+  margin: 4%;
+}
+form {
+  display: block;
+  margin: auto;
+  margin-top: 5%;
+  color: black;
+  width: 80%;
+}
+.lets_connect .connect-option {
+  margin-top: 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* .lets_connect .connect_icons {
+  margin-bottom: 5%;
+} */
+/* sendbtncss */
+.resumeCo {
+  display: none;
+}
+@media only screen and (max-width: 600px) {
+  .contact_section {
+    grid-template-columns: auto;
+    height: 80vh;
+    width: 80vw;
+    gap: 1%;
+    margin-top: 23%;
+    backdrop-filter: none;
+  }
+  form {
+    display: block;
+    margin: auto;
+    margin-top: 5%;
+    color: black;
+    width: 90%;
+  }
+  .lets_connect .connect-option {
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+    z-index: +99;
+  }
+  .connect-option .whatsapp,
+  .git,
+  button {
+    z-index: +99;
+    position: relative;
+  }
+  .connect-option a {
+    margin-top: 5%;
+  }
+  .contact_form,
+  .lets_connect {
+    height: 30vh;
+    margin: 2%;
+  }
+  .lets_connect {
+    margin-top: 18%;
+  }
+  .resumeCo {
+    display: none;
+  }
+}
