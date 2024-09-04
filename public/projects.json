@@ -4,14 +4,14 @@
     "image": "one.png",
     "description": "e-commerce website using react js, using free product api,add,fvt,order feature,and responsive,firebase auth",
     "liveUrl": "https://one-ecom-388ea.web.app/",
-    "codeUrl": "https://github.com/iamfaizandev/one-ecom"
+    "codeUrl": "https://github.com/iamfaizandev/ecom"
   },
   {
-    "title": "Oneflix Clone",
+    "title": "Showtime",
     "image": "onelfix.png",
-    "description": "Create account using Google,Email and Login with Email,password , Open in Other broswer becz its look like netflix google throwing scam alert",
+    "description": "Create account using Google,Email and Login with Email,password ,  ",
     "liveUrl": "https://onewebmovie.web.app/",
-    "codeUrl": "https://github.com/iamfaizandev/oneflix"
+    "codeUrl": "https://github.com/iamfaizandev/showtime"
   },
   {
     "title": "Nested Routing",
